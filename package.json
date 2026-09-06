@@ -1,0 +1,12 @@
+{
+  "name": "zone-battle",
+  "version": "1.0.0",
+  "description": "Serveur de duel pour ZONE BATTLE",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.21.3"
+  }
+}

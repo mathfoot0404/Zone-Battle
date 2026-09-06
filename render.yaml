@@ -1,0 +1,12 @@
+# Deploiement automatique sur Render.com
+# Tous les fichiers sont a la racine du depot.
+services:
+  - type: web
+    name: zone-battle
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20
